@@ -13,6 +13,9 @@ import Actividades from '../pages/Actividades.js';
 
 import Tutores from '../pages/TutoresPage';
 import CambioContrasenia from '../pages/CambioContraseniaPage';
+
+import InfoIntegrante from '../pages/InfoIntegrante';
+import AdminPerfil from '../pages/AdminPerfil.js';
 //qq
 function App() {
   return (
@@ -31,6 +34,10 @@ function App() {
         <Route exact path="/cambioContrasenia" component={CambioContrasenia}/>
 
         <Route exact path="/actividades" component={Actividades}/>
+        
+        <Route exact path="/integrante" component={InfoIntegrante}/>
+
+        <Route exact path="/adminPerfil" component={AdminPerfil}/>
 
     </Switch>
     </BrowserRouter>

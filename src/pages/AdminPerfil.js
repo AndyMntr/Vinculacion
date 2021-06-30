@@ -3,7 +3,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Accordion from '../components/actividades/Accordion';
 
-class InfoIntegrante extends React.Component{
+class AdminPerfil extends React.Component{
     render(){
         const hiddenTexts = [{
           label: 'Datos Familiares'
@@ -34,4 +34,4 @@ class InfoIntegrante extends React.Component{
       );
   }
 }
-export default InfoIntegrante;
+export default AdminPerfil;
