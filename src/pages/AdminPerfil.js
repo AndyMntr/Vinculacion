@@ -2,8 +2,6 @@ import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import Accordion from '../components/actividades/Accordion';
-import DatosFamiliares from '../components/DatosFamiliares';
-import DatosPersonales from '../components/DatosPersonales';
 
 class AdminPerfil extends React.Component{
     render(){
