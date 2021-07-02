@@ -14,10 +14,9 @@ import Actividades from '../pages/Actividades.js';
 import Tutores from '../pages/TutoresPage';
 import CambioContrasenia from '../pages/CambioContraseniaPage';
 
-import InfoIntegrante from '../pages/InfoIntegrante';
 import InfoIntegrante2 from '../pages/InfoIntegrante2';
-import AdminPerfil from '../pages/AdminPerfil.js';
 import AdminPerfi2 from '../pages/AdminPerfil2.js';
+import ObjetivosPagina from '../pages/ObjetivosPagina.js'
 
 function App() {
   return (
@@ -36,11 +35,10 @@ function App() {
         <Route exact path="/cambioContrasenia" component={CambioContrasenia}/>
 
         <Route exact path="/actividades" component={Actividades}/>
-        
-        <Route exact path="/integrante" component={InfoIntegrante}/>
+
         <Route exact path="/integrante2" component={InfoIntegrante2}/>
-        <Route exact path="/adminPerfil" component={AdminPerfil}/>
-        <Route exact path="/adper" component={AdminPerfi2}/>
+
+        <Route exact path="/adper" component={AdminPerfi2}/> 
 
     </Switch>
     </BrowserRouter>

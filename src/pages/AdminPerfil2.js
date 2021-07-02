@@ -12,7 +12,7 @@ import Idiomas from '../components/Idiomas';
 import InfoEducativa from '../components/InfoEducativa';
 import UbicacioDelGrupo from '../components/UbicacionDelGrupo';
 import Logros from '../components/Logros';
-import Objetivos from '../components/Objetivos';
+import ObjetivosPagina from '../pages/ObjetivosPagina';
 
 
 function AdminPerfil2() {
@@ -57,7 +57,7 @@ function AdminPerfil2() {
       {
         "title": "Objetivos",
         "description": "",
-        "component": <Objetivos/> 
+        "component": <ObjetivosPagina/> 
       }
     ];
   
