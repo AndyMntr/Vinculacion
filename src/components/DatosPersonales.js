@@ -8,7 +8,6 @@ class DatosPersonales extends React.Component{
         return(
 
         <div class="container">
-          <p class="h4">Datos personales</p>
           <dl class="row">
             <dt class="col-sm-3">Nombres</dt>
             <dd class="col-sm-9"><input class="form-control" disabled /></dd>

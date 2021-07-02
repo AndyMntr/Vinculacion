@@ -8,7 +8,6 @@ class DatosFamiliares extends React.Component{
         return(
 
             <div class="container">
-            <p class="h4">Datos Familiares</p>
             <p class="h5">Datos de la madre</p>
             <dl class="row">
               <dt class="col-sm-3">Nombres</dt>

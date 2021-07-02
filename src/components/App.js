@@ -15,8 +15,10 @@ import Tutores from '../pages/TutoresPage';
 import CambioContrasenia from '../pages/CambioContraseniaPage';
 
 import InfoIntegrante from '../pages/InfoIntegrante';
+import InfoIntegrante2 from '../pages/InfoIntegrante2';
 import AdminPerfil from '../pages/AdminPerfil.js';
-//qq
+import AdminPerfi2 from '../pages/AdminPerfil2.js';
+
 function App() {
   return (
     <BrowserRouter>
@@ -36,8 +38,9 @@ function App() {
         <Route exact path="/actividades" component={Actividades}/>
         
         <Route exact path="/integrante" component={InfoIntegrante}/>
-
+        <Route exact path="/integrante2" component={InfoIntegrante2}/>
         <Route exact path="/adminPerfil" component={AdminPerfil}/>
+        <Route exact path="/adper" component={AdminPerfi2}/>
 
     </Switch>
     </BrowserRouter>

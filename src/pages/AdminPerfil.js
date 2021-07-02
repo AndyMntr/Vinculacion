@@ -10,7 +10,7 @@ class AdminPerfil extends React.Component{
 
       },
       {
-          label: 'Lugar de residencia'
+          label: 'Lugar de Residencia'
       },
       {
           

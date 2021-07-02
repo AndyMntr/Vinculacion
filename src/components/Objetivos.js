@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles/estilo.css';
 import './styles/bootstrap.css';
+import './actividades/Accordion';
 
 class Objetivos extends React.Component{
     render(){
