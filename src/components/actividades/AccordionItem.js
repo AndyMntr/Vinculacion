@@ -1,7 +1,8 @@
 import React from 'react';
 
 import './estilo.css';
-import DatosPersonales from '../DatosPersonales';
+
+
 class AccordionItem extends React.Component {
 
     constructor(props) {
@@ -27,9 +28,9 @@ class AccordionItem extends React.Component {
                     <button className="accordion__button" onClick={this.handleToggleVisibility}>{this.props.hiddenText.label}</button>
                     <p className={`accordion__content ${activeStatus}`}>
                         {
+                            
                             <p>
-
-                                <DatosPersonales />
+                                             
                                 <button className="button_o" data-toggle="collapse" href="#agregarActividad" role="button"
                                     aria-expanded="false" aria-controls="agregarActividad">Agregar</button>
                                 <button className="button_o" type="button" data-toggle="collapse" data-target="#modificarActividad"
@@ -37,6 +38,7 @@ class AccordionItem extends React.Component {
                                 <button className="button_o" type="button" data-toggle="collapse" data-target="#eliminarActividad"
                                     aria-expanded="false" aria-controls="eliminarActividad" >Eliminar</button>
                             </p>
+                                                    
                         }
                     </p>
                 </div>

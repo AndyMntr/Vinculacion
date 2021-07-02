@@ -6,7 +6,7 @@ import Accordion from '../components/actividades/Accordion';
 class InfoIntegrante extends React.Component{
     render(){
         const hiddenTexts = [{
-          label: 'Datos Familiares'
+          label: 'Datos Personales'
       },
       {
           label: 'Lugar de residencia'
